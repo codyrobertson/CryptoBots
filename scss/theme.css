@@ -1,0 +1,75 @@
+/*
+Error: $color: null is not a color for `darken'
+        on line 178 of /Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/custom/variables-bootstrap.scss
+        from line 4 of /Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/theme.scss
+
+Backtrace:
+/Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/custom/variables-bootstrap.scss:178
+/Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/theme.scss:4
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/funcall.rb:131:in `_perform'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:329:in `map'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:290:in `render'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:400:in `run'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/var/folders/p5/qq7l0d1n0vj9xxxwc455d4p80000gn/T/AppTranslocation/21DEC2B4-72B5-4548-8C2E-1ED77DCE2DC0/d/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: $color: null is not a color for `darken'\A         on line 178 of /Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/custom/variables-bootstrap.scss\A         from line 4 of /Users/Cody/Downloads/Jumpstart HTML template 1.1.0/scss/theme.scss"; }
+
+.color_change:hover{
+        animation-duration: 350ms;
+        animation-name: color-change;
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes color-change {
+        from {background-color: #f4c761;}
+        to {background-color: #2ac795;}
+      }
+      
+      /* Standard syntax */
+      @keyframes color-change {
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
